@@ -1,0 +1,31 @@
+.add-banner-background{
+    background-image: url("images/forest.jpg");
+    background-size: cover;
+}
+.banner-label{
+    color: #569DAA;
+    font-weight: bold;
+}
+.intro{
+    width: 50%;
+    margin: auto;
+}
+.skills{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    text-align: left;
+    width: 50%;
+    margin: 100px auto 0 auto;
+    row-gap: 2rem;
+}
+.mail-button{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+#footer{
+    background-color: #569DAA;
+    font-family: sans-serif;
+}
